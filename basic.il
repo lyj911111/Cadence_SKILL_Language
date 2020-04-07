@@ -5,6 +5,7 @@ C언어랑 같음.
 
 ; 한줄 주석달기
 
+; 변수선언 내장함수 값 대입
 cur_skillpath = getSkillPath() ; Obtain SKILL current path
 
 ; 증가 감소 C언어와 동일
@@ -35,4 +36,4 @@ printf( "the value of x is %n" x )	;	리턴값으로 t를 반환, %n에 fixnum �
 comp_name = "resistor"
 design_name = "pwr_supply1"
 tolerance = .1
-printf( "\nthe design %s uses a custom %s whose tolerance is %2.1f percent." design_name comp_name tolerance )
+printf("\nthe design %s uses a custom %s whose tolerance is %f percent." design_name comp_name tolerance)
